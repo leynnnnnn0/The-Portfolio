@@ -1,5 +1,5 @@
 function ProfilePhoto({
-  src = '/images/profile-photo-placeholder.svg',
+  src = '/images/nathaniel-profile.jpg',
   alt = 'Nathaniel Alvarez',
 }) {
   return (
@@ -7,7 +7,7 @@ function ProfilePhoto({
       <img
         src={src}
         alt={alt}
-        className="h-full w-full object-cover"
+        className="h-full w-full scale-[2] object-cover object-[50%_58%]"
       />
     </figure>
   );
